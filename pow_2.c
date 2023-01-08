@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<math.h>
 int main() {
-    int sm=1; int i;
+    int sm=0; int i;
     
-    for(i=2; i<=8; i+=3) {
+    for(i=1; i<=6; i+=2) {
         
         sm=sm+pow(i,2);
     
